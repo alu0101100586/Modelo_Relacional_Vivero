@@ -32,10 +32,10 @@ Utilizando las tranformaciones de modelo entidad - relación, se ha conseguido e
 ![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/cliente.PNG)
 
 ### No_Afiliado
-![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/no_afliliado.PNG)
+![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/no_afliliado.png)
 
 ### Afiliado
-![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/afiliado.PNG)
+![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/afiliado.png)
 
 ### Adquiere
-![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/adquiere.PNG)
+![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/adquiere.png)
