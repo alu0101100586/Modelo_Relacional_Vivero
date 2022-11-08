@@ -82,13 +82,13 @@ CREATE TABLE empleado (
   CONSTRAINT fk_zona 
     FOREIGN KEY(id_zona) 
       REFERENCES zonas(id_zona) 
-        ON DELETE CASCADE,
+        ON DELETE CASCADE
 );
 
 /* TABLA PEDIDO */
 CREATE TABLE pedido (
   id_empleado INT NOT NULL,
-  id_pedido INT NOT NULL,
+  id_pedido INT NOT NULL UNIQUE,
   id_producto INT NOT NULL,
   precio_total FLOAT,
   numero_producto INT,
@@ -101,7 +101,7 @@ CREATE TABLE pedido (
   CONSTRAINT fk_producto
     FOREIGN KEY(id_producto)
       REFERENCES producto(id_producto)
-        ON DELETE CASCADE,
+        ON DELETE CASCADE
 );
 
 /* TABLA CLIENTE */
@@ -111,14 +111,6 @@ CREATE TABLE cliente (
   tipo VARCHAR(20) NOT NULL,
   PRIMARY KEY(dni_cliente)
 );
-
-INSERT INTO cliente
-VALUES
-  ('12345671H', 'Manuel Ferrero Diaz', 'No Afiliado'),
-  ('12345672R', 'Jonás Toledo Hernandez', 'Afiliado'),
-  ('12345673T', 'Tomas Alonso Cruz', 'Afiliado'),
-  ('12345674J', 'Jorgue Santos Santana', 'No Afiliado'),
-  ('12345675M', 'Martin Martin Martinez', 'No Afiliado');
 
 /* TABLA AFILIADO */
 CREATE TABLE afiliado (
@@ -153,9 +145,9 @@ CREATE TABLE adquiere (
       REFERENCES cliente(dni_cliente)
         ON DELETE CASCADE,
   CONSTRAINT fk_pedido
-    FOREIGN KEY(id_pedido)
+    FOREIGN KEY (id_pedido)
       REFERENCES pedido(id_pedido)
-        ON DELETE CASCADE,
+        ON DELETE CASCADE
 );
 
 /* Insertamos t-uplas en las tablas creadas*/
@@ -183,7 +175,7 @@ VALUES
   (4, 'Manguera 15m', 15.99, 50),
   (5, 'Humidificador', 39.95, 29);
 
-INSERT INTO almacena(id_zona, id_pedido, stock)
+INSERT INTO almacena(id_zona, id_producto, stock)
 VALUES
   (1, 1, 40),
   (2, 2, 20),
