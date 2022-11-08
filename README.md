@@ -11,31 +11,31 @@ Utilizando las tranformaciones de modelo entidad - relación, se ha conseguido e
 
 ## 3.- Imagen con SELECT de cada tabla
 ### Vivero
-![]()
+![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/vivero.PNG)
 
 ### Zonas
-![]()
+![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/zonas.PNG)
 
 ### Producto
-![]()
+![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/producto.PNG)
 
 ### Almacena
-![]()
+![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/almacena.PNG)
 
 ### Empleados
-![]()
+![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/empleado.PNG)
 
 ### Pedido
-![]()
+![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/pedido.PNG)
 
 ### Cliente
-![]()
+![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/cliente.PNG)
 
 ### No_Afiliado
-![]()
+![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/no_afliliado.PNG)
 
 ### Afiliado
-![]()
+![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/afiliado.PNG)
 
 ### Adquiere
-![]()
+![](https://github.com/alu0101100586/Modelo_Relacional_Vivero/blob/main/img/adquiere.PNG)
